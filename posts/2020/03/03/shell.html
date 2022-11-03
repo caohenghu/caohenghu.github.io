@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>shell常用命令 | 曹恒虎的博客</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="https://i.loli.net/2020/03/07/Ur7RLIdlsNv3zWV.png">
+    <meta name="description" content="曹恒虎的博客">
+    <link rel="preload" href="/assets/css/0.styles.2a046d27.css" as="style"><link rel="preload" href="/assets/js/app.4e798a2c.js" as="script"><link rel="preload" href="/assets/js/7.61941beb.js" as="script"><link rel="preload" href="/assets/js/14.b9980272.js" as="script"><link rel="prefetch" href="/assets/js/1.60ade08d.js"><link rel="prefetch" href="/assets/js/10.8390b504.js"><link rel="prefetch" href="/assets/js/11.e6968da5.js"><link rel="prefetch" href="/assets/js/12.6b57db5f.js"><link rel="prefetch" href="/assets/js/13.27945b8f.js"><link rel="prefetch" href="/assets/js/15.bd234f05.js"><link rel="prefetch" href="/assets/js/16.5bb9a5df.js"><link rel="prefetch" href="/assets/js/17.e712e6f1.js"><link rel="prefetch" href="/assets/js/18.a29f2697.js"><link rel="prefetch" href="/assets/js/19.7018ca2d.js"><link rel="prefetch" href="/assets/js/3.b8b00592.js"><link rel="prefetch" href="/assets/js/4.6d0392e2.js"><link rel="prefetch" href="/assets/js/5.2ac8a2c6.js"><link rel="prefetch" href="/assets/js/6.91484d3b.js"><link rel="prefetch" href="/assets/js/8.c551b049.js"><link rel="prefetch" href="/assets/js/9.d725ca75.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.2a046d27.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-meteorlxy"><header class="header" data-v-77456e9c><div data-v-0b017143 data-v-77456e9c><nav class="navbar" data-v-0b017143><div class="container" data-v-0b017143><a href="/" class="router-link-active" data-v-0b017143><span class="navbar-site-name" data-v-0b017143>
+          曹恒虎的博客
+        </span></a> <div class="navbar-toggler" data-v-0b017143><svg class="icon" style="font-size:1.2em;" data-v-0b017143 data-v-0b017143><title data-v-0b017143 data-v-0b017143>menu</title><use xlink:href="#icon-menu" data-v-0b017143 data-v-0b017143></use></svg></div> <div class="navbar-links" data-v-0b017143><a href="/" class="navbar-link" data-v-0b017143>
+            首页
+          </a><a href="/posts/" class="navbar-link router-link-active" data-v-0b017143>
+            文章
+          </a><a href="/project/" class="navbar-link" data-v-0b017143>
+            项目
+          </a><a href="https://github.com/caohenghu" target="_blank" rel="noopener noreferrer" class="navbar-link" data-v-0b017143><span data-v-0b017143>GitHub</span> <span data-v-0b017143><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div></div></nav> <div class="navbar-holder" style="display:none;" data-v-0b017143></div></div> <div class="banner" data-v-404c5882 data-v-77456e9c data-v-77456e9c><div class="container" data-v-404c5882><div class="center" data-v-404c5882><h1 data-v-404c5882 data-v-77456e9c>
+          shell常用命令
+        </h1></div></div></div></header> <div class="container clearfix show-aside" data-v-08cbe24e data-v-08cbe24e><main class="main" data-v-08cbe24e><div class="post" data-v-08cbe24e data-v-08cbe24e><section class="post-meta main-div" data-v-382f8e57><section class="post-date clearfix" data-v-382f8e57><span class="create-date" data-v-382f8e57>
+      发布时间 : 2020-03-03
+    </span> <span class="update-date" data-v-382f8e57>
+      最后修改 : 2020-04-19
+    </span></section> <section class="post-links" data-v-382f8e57><!----> <a href="/posts/2020/03/03/changelog.html" class="post-link" data-v-382f8e57>
+      下一篇 : 如何生成changelog
+    </a></section></section> <article class="main-div"><div class="post-content content content__default"><blockquote><p>平时用到终端比较多，这时候熟悉一些常用的 <code>shell</code> 命令就会很方便。</p></blockquote> <h2 id="一般命令"><a href="#一般命令" class="header-anchor">#</a> 一般命令</h2> <ul><li><code>ctrl+r</code> 查找历史执行指令</li> <li><code>ctrl+p</code> 前一条指令，跟上箭头一样</li> <li><code>ctrl+n</code> 后一条指令，跟下箭头一样</li> <li><code>ctrl+c</code> 取消已经输入的指令</li> <li><code>ctrl+l / clear</code> 清屏</li> <li><code>ctrl+o / ctrl+j / ctrl+m</code> 执行当前输入的指令，跟回车一样</li></ul> <h2 id="光标移动"><a href="#光标移动" class="header-anchor">#</a> 光标移动</h2> <ul><li><code>ctrl+a</code> 光标移动到行首</li> <li><code>ctrl+e</code> 光标移动到行尾</li> <li><code>ctrl+b</code> 光标往左移动一个字符，跟左箭头一样</li> <li><code>ctrl+f</code> 光标往右移动一个字符，跟右箭头一样</li></ul> <h2 id="字符删除"><a href="#字符删除" class="header-anchor">#</a> 字符删除</h2> <ul><li><code>ctrl+h</code> 删除光标左边一个字符，跟 <code>backspace</code> 一样</li> <li><code>ctrl+d</code> 删除光标右边一个字符，跟 <code>delete</code> 一样</li> <li><code>ctrl+t</code> 交换光标左边两个字符的位置，并且光标往右移动一个字符</li></ul> <h2 id="复制黏贴"><a href="#复制黏贴" class="header-anchor">#</a> 复制黏贴</h2> <ul><li><code>ctrl+w</code> 剪切前一个单词（空格间隔的字符串单元）</li> <li><code>ctrl+u</code> 剪切到行首</li> <li><code>ctrl+k</code> 剪切到行尾</li> <li><code>ctrl+y</code> 粘贴剪切的指令（和普通的粘贴不一样）</li></ul></div></article> <section class="post-meta main-div" data-v-382f8e57><section class="post-date clearfix" data-v-382f8e57><span class="create-date" data-v-382f8e57>
+      发布时间 : 2020-03-03
+    </span> <span class="update-date" data-v-382f8e57>
+      最后修改 : 2020-04-19
+    </span></section> <section class="post-links" data-v-382f8e57><!----> <a href="/posts/2020/03/03/changelog.html" class="post-link" data-v-382f8e57>
+      下一篇 : 如何生成changelog
+    </a></section></section> <!----></div></main> <aside class="aside" data-v-08cbe24e><div class="info-card main-div" data-v-66d206d0 data-v-08cbe24e><div class="info-card-header" data-v-66d206d0><img src="https://i.loli.net/2020/03/07/Ur7RLIdlsNv3zWV.png" alt="caohenghu" class="info-avatar" data-v-66d206d0></div> <div class="info-card-body" data-v-66d206d0><section class="info-nickname" data-v-66d206d0>
+      caohenghu
+    </section> <!----> <section class="info-contact" data-v-66d206d0><!----> <!----> <!----></section></div> <div class="info-card-footer" data-v-66d206d0><section class="info-sns clearfix" data-v-66d206d0><a href="https://github.com/caohenghu" target="_blank" class="sns-link" data-v-66d206d0><span title="GitHub: caohenghu" class="sns-icon" data-v-66d206d0 data-v-66d206d0><svg class="icon" style="font-size:1.5em;" data-v-66d206d0 data-v-66d206d0><title data-v-66d206d0 data-v-66d206d0>GitHub: caohenghu</title><use xlink:href="#icon-github" data-v-66d206d0 data-v-66d206d0></use></svg></span></a></section></div></div> <div class="post-nav-card main-div" style="position:relative;top:0;width:0px;" data-v-08cbe24e><div class="post-nav-contents"><svg class="icon"><title>book</title><use xlink:href="#icon-book"></use></svg> <span>文章目录</span> <div class="post-nav-toc"><ul><li><a href="/posts/2020/03/03/shell.html#一般命令">一般命令</a></li><li><a href="/posts/2020/03/03/shell.html#光标移动">光标移动</a></li><li><a href="/posts/2020/03/03/shell.html#字符删除">字符删除</a></li><li><a href="/posts/2020/03/03/shell.html#复制黏贴">复制黏贴</a></li></ul></div></div> <!----></div></aside></div> <footer class="footer" data-v-55f3caf8><p class="footer-sns-links" data-v-55f3caf8><a href="https://github.com/caohenghu" target="_blank" class="sns-link" data-v-55f3caf8><span title="GitHub: caohenghu" class="sns-icon" data-v-55f3caf8 data-v-55f3caf8><svg class="icon" style="font-size:25px;" data-v-55f3caf8 data-v-55f3caf8><title data-v-55f3caf8 data-v-55f3caf8>GitHub: caohenghu</title><use xlink:href="#icon-github" data-v-55f3caf8 data-v-55f3caf8></use></svg></span></a></p> <!----> <p class="footer-text" data-v-55f3caf8>Copyright 2018-present <a href="https://github.com/caohenghu" target="_blank">caohenghu</a> | MIT License</p></footer></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.4e798a2c.js" defer></script><script src="/assets/js/7.61941beb.js" defer></script><script src="/assets/js/14.b9980272.js" defer></script>
+  </body>
+</html>
